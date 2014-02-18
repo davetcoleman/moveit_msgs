@@ -1,0 +1,14 @@
+# A service call to generate a walking motion
+# The request
+
+RobotState start
+RobotState goal
+
+---
+
+# The returned solution 
+# (in the same order as the list of joints specified in the IKRequest message)
+trajectory_msgs/JointTrajectory joint_trajectory
+trajectory_msgs/MultiDOFJointTrajectory multi_dof_joint_trajectory
+
+MoveItErrorCodes error_code
