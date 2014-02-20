@@ -65,6 +65,7 @@ GetConstraintAwarePositionIK.srv
 GetKinematicSolverInfo.srv
 GetPositionFK.srv
 GetPositionIK.srv
+GetWalkingMotion.srv
 SaveMap.srv
 LoadMap.srv
 )
