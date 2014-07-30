@@ -4,6 +4,12 @@ sensor_msgs/JointState joint_state
 # Joints that may have multiple DOF are specified here
 sensor_msgs/MultiDOFJointState multi_dof_joint_state
 
+# Fixed virtual joints that attach links (such as feet) to the world frame.
+# The joint_name should be the same as the link_name that is fixed
+# The transform from world frame to the fixed link frame
+# twist and wrench should not be used
+sensor_msgs/MultiDOFJointState fixed_links
+
 # Attached collision objects (attached to some link on the robot)
 AttachedCollisionObject[] attached_collision_objects
 
