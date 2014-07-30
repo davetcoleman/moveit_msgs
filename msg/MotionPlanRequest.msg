@@ -33,3 +33,6 @@ int32 num_planning_attempts
 
 # The maximum amount of time the motion planner is allowed to plan for (in seconds)
 float64 allowed_planning_time
+
+# Optionally use motion recall to speed up planning
+bool use_experience
