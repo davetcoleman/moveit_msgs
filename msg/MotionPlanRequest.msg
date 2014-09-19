@@ -36,3 +36,4 @@ float64 allowed_planning_time
 
 # Optionally use motion recall to speed up planning
 bool use_experience
+string experience_method
