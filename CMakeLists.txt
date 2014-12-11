@@ -48,6 +48,7 @@ PlanningOptions.msg
 PositionConstraint.msg
 RobotState.msg
 RobotTrajectory.msg
+StabilityConstraint.msg
 VisibilityConstraint.msg
 WorkspaceParameters.msg
 KinematicSolverInfo.msg

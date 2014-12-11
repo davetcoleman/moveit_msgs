@@ -10,3 +10,5 @@ PositionConstraint[] position_constraints
 OrientationConstraint[] orientation_constraints
 
 VisibilityConstraint[] visibility_constraints
+
+StabilityConstraint[] stability_constraints
