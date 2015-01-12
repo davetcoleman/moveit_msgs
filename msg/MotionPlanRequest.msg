@@ -37,3 +37,10 @@ float64 allowed_planning_time
 # Optionally use motion recall to speed up planning
 bool use_experience
 string experience_method
+
+# The scaling factor for optionally reducing the maximum joint velocities.
+# Allowed values are in (0,1]. The maximum joint velocity specified
+# in the robot model is multiplied by the factor. If outside valid range
+# (imporantly, this includes it being set to 0.0), the factor is set to a
+# default value of 1.0 internally (i.e. maximum joint velocity)
+float64 max_velocity_scaling_factor
