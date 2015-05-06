@@ -46,3 +46,6 @@ float32 max_contact_force
 # an optional list of obstacles that we have semantic information about
 # and that can be touched/pushed/moved in the course of grasping
 string[] allowed_touch_objects
+
+# The minimum opening that the fingers can have as it approaches an object
+float64 min_finger_open_on_approach
